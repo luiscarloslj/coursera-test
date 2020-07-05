@@ -1,4 +1,28 @@
 body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 	background-color: green; 
 	
 }
+h1 {
+	margin-bottom: 15px;
+}
+
+div#container {
+	background-color: #00FFFF;
+	position: relative;
+}
+p { 
+  width: 50px;
+   border: 1px solid black;
+  margin-bottom: 15px;
+}
+#p1 {
+  background-color: #A52A2A;
+  position: absolute;
+  top: 0px;
+  left: 65px;
+}
+#p2 {
+  background-color: #DEB887; }
